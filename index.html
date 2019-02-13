@@ -2,53 +2,69 @@
 <html>
 <head>
 	<title>caojiali.me</title>
-</head>
-<style>
-html body {
-	margin: 0;
-	padding: 0;
-}
-li {
-	list-style: none;
-	float: left;
-	padding: 20px;
-}
-a {
-	text-decoration: none;
-	color: #fff;
-}
-.header {
-	background-image: url(https://cdn.caitun.com/images/d89d0c41-bea6-4ed6-b694-cad8d882dcee.jpg);
-    width: 100%;
-    height: 100vh;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<style>
+	html body {
+		margin: 0;
+		padding: 0;
+	}
+	li {
+		list-style: none;
+		float: left;
+		padding: 20px;
+	}
+	a {
+		text-decoration: none;
+		color: #fff;
+	}
+	.header {
+		background-image: url(https://cdn.caitun.com/images/d89d0c41-bea6-4ed6-b694-cad8d882dcee.jpg);
+	    width: 100%;
+	    height: 100vh;
+	    background-size: 100%;
+	    background-repeat: no-repeat;
+	    background-position: center;
 
-}
-.header-layout {
-	display: flex;
-	justify-content: center;
-}
-.header-desc {
-    position: absolute;
-    color: #fff;
-    font-size: 36px;
-    margin-top: 300px;
-}
-.header-desc-2 {
-	margin-top: 370px;
-}
-</style>
+	}
+	.header-layout {
+		display: flex;
+		justify-content: center;
+	}
+	.header-desc {
+	    position: absolute;
+	    color: #fff;
+	    font-size: 36px;
+	    margin-top: 300px;
+	}
+	.header-desc-2 {
+		margin-top: 370px;
+	}
+	@media only screen and (max-device-width: 768px) {
+		.header {
+		background-image: url(https://cdn.caitun.com/images/d89d0c41-bea6-4ed6-b694-cad8d882dcee.jpg);
+	    width: 100%;
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    background-position: center;
+
+		}
+		li {
+			font-size: 13px;
+		}
+	}
+	</style>
+</head>
 <body>
 <header>
 	<nav class="header header-layout">
-		<li><a href="mainpage.html">技术文章</a></li>
-		<li><a href="https://github.com/LaylaCao">开源项目</a></li>
-		<li><a href="">个人简历</a></li>
-		<li><a href="">about me</a></li>
-		<div class="header-desc">你想了解我吗</div>
-		<div class="header-desc header-desc-2">请访问我的GitHub</div>
+		<li><a href="mainpage.html" target="_blank">技术文章</a></li>
+		<li><a href="https://github.com/LaylaCao" target="_blank">开源项目</a></li>
+		<li><a href="" target="_blank">个人简历</a></li>
+		<li><a href="" target="_blank">about me</a></li>
+		<div class="header-desc"><a href="https://github.com/LaylaCao" target="_blank">你想了解我吗</a></div>
+		<div class="header-desc header-desc-2"><a href="https://github.com/LaylaCao" target="_blank">请访问我的GitHub</a></div>
 	</nav>
 
 </header>
